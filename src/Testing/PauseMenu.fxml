@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Testing.pause_controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.59" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/Will-Hero.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="resume" defaultButton="true" layoutX="204.0" layoutY="109.0" mnemonicParsing="false" onAction="#resume_game" prefHeight="34.0" prefWidth="200.0" text="Resume" textFill="#1f989e">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="restart" defaultButton="true" layoutX="204.0" layoutY="282.0" mnemonicParsing="false" onAction="#restartgame" prefHeight="34.0" prefWidth="200.0" text="Restart" textFill="#1f989e">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="save_game" defaultButton="true" layoutX="204.0" layoutY="165.0" mnemonicParsing="false" onAction="#save_game" prefHeight="34.0" prefWidth="200.0" text="Save Game" textFill="#1f989e">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="mainmenu" defaultButton="true" layoutX="204.0" layoutY="226.0" mnemonicParsing="false" onAction="#main_menu" prefHeight="34.0" prefWidth="200.0" text="Main Page" textFill="#1f989e">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
